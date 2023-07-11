@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background: rgba(232, 103, 44, 0.1);
+}
+.banner-img{
+    width: 580px;
+}
+.header-title{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.header-description{
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+.btn{
+    border-radius: 5px;
+    background: #E55473;
+    padding:15px;
+    border:none;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    gap: 10px;
+}
+.main-section-description{
+    margin-top: 80px;
+    text-align: center;
+}
+.section-title{
+    font-size: 25px;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+.section-description{
+    font-size: 18px;
+    color: grey;
+    margin-bottom: 20px;
+}
+.creative-sec{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.img-blog-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 30%; */
+}
+.img-design1{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+.img-design2{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+.img-design3{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+.flower-img{
+    margin-bottom: -3px;
+    width: 295px;
+    height: 385px;
+}
+.flower-link{
+    margin-top: 15px;
+    color: #272727;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+.communication{
+    margin: 50px 220px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+.com-content{
+    display: flex;
+    justify-content: space-around;
+}
+.com-data{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.com-info{
+    margin-top: 5px;
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 10px;
+    font-weight: 600;
+}
+.com-icon{
+    width: 30px;
+    height: 30px;
+}
