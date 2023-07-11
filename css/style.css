@@ -4,13 +4,15 @@
 }
 .header-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 40px;
     align-items: center;
     height: 100vh;
     background: rgba(232, 103, 44, 0.1);
 }
 .banner-img{
-    width: 580px;
+    width: 574px;
+    margin-bottom: -40px;
 }
 .header-title{
     font-size: 50px;
@@ -21,9 +23,9 @@
     font-size: 12px;
 }
 .btn{
-    border-radius: 5px;
+    border-radius: 8px;
     background: #E55473;
-    padding:15px;
+    padding:15px 20px;
     border:none;
     cursor: pointer;
     color: white;
@@ -107,4 +109,108 @@
 .com-icon{
     width: 30px;
     height: 30px;
+}
+.section-banner{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+.sec-banner-description{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+}
+
+.btn-bg{
+    color: #E55473;
+}
+.sec-banner-img{
+    width: 35%;
+}
+.round-corner-img{
+    margin: 100px 0px;
+    align-items: center;
+}
+.round-container{
+    width: 80%;
+    /* align-items: center; */
+    margin: 0 auto;
+}
+.round-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rounded-img{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.rounded-img img{
+    width: 20%;
+}
+.signup-container{
+    background: url('../images/Rectangle\ 9.png');
+    text-align: center;
+    border-radius: 8px;
+    width: 67%;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    margin: 0 auto;
+}
+.signup-container p{
+    text-align: center;
+    padding: 10px 0 30px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.signup-container form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signup-container input{
+    border: none;
+    width: 600px;
+    height: 55px;
+    border-radius: 8px;
+    margin-right: 10px;
+    padding-left: 20px;
+}
+.form-btn{
+    border-radius: 8px;
+    background: #E55473;
+    padding:15px 20px;
+    border:none;
+    color: white;
+    cursor: pointer;
+}
+.sec-footer{
+    background: #111010;
+    color: rgba(255, 255, 255, 0.90);
+    padding: 80px;
+    margin-top: 80px;
+}
+.footer-conteiner{
+    text-align: center;
+}
+.footer-title{
+    margin-bottom: 10px;
+}
+.footer-conteiner p{
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+.footer-conteiner h5{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 10px;
+}
+.btn-footer{
+    color: #E55473;
 }
